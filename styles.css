@@ -1,16 +1,14 @@
 body{
-    background-color: lightblue;
+    background-color: rgb(3, 50, 65);
+    padding: 0%;
+
 }
 
 nav{
     background-color: #13789a;
-    padding: 0%;
+    padding: 10px;
     margin: 0%;
 }
-
-
-
-
 a, a:link, a:visited, a:active{
     text-decoration: none;
     color: aliceblue;
@@ -22,12 +20,47 @@ a:hover{
     color: aliceblue;
     background-color: #105c75;
 }
-
+.nav-link-container{
+    text-align: right;
+}
+.nav-link{
+    font-size: 20pt;
+    padding: 6px;
+    border-left: solid thick;
+    border-right: solid thin;
+    border-color: #053c4f;
+    display: inline;
+    
+}
 .navbar-brand{
+    font-family: 'Great Vibes', cursive;
     font-size: 50pt;
+    
 }
 
 .navbar-brand:hover{
     font-size: 50pt;
+    color: white;
     background-color: #13789a;
+}
+
+.d-block{
+    text-align: center;
+    width: 95%;
+    min-height: 50vw;
+    max-height: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body{
+    background-color:#18596f;
+}
+.carousel{
+    background-color:#18596f;
+    padding: 20px;
+}
+.card{
+    width: 33%;
+    background-color: #053c4f;
+    color: aliceblue;
 }
