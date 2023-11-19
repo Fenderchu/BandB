@@ -53,6 +53,7 @@ a:hover{
 }
 .body{
     background-color:#18596f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .carousel{
     background-color:#18596f;
@@ -82,4 +83,68 @@ footer p{
     color: aliceblue;
     display: inline;
     text-align: center;
+}
+footer a{
+    border: thin solid;
+    border-color: aqua;
+
+}
+form{
+    margin: 5%;
+    margin-bottom: 0%;
+    padding: 20px;
+    color: aliceblue;
+}
+#form-head{
+    text-align: center;
+}
+form button{
+    background-color:#053c4f;
+    border-color:#053c4f ;
+    color: aliceblue;
+}
+
+.map{
+    text-align: center;
+    padding: 3%;
+
+}
+iframe{
+    width: 75vw;
+    height: 75vw;
+}
+.thanks-page{
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+#bigthank{
+    font-family: 'Great Vibes', cursive;
+    font-size: 90pt;
+}
+@media screen and (min-width: 800px){
+    .navbar-brand{
+        font-size: 70pt;
+        padding: 0%;
+    }
+    .nav-link-container{
+        text-align: start;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 800px){
+    footer{
+        padding: 50px;
+    }
+    footer p{
+        display: block;
+        font-size: 10pt;
+    }
+    .card{
+        display: block;
+        width: 100%;
+    }
+    .navbar-brand, #bigthank{
+        font-size: 40pt;
+    }
 }
