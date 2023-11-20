@@ -127,6 +127,11 @@ iframe{
         font-size: 70pt;
         padding: 0%;
     }
+    .navbar-brand:hover{
+        font-size: 70pt;
+        color: white;
+        background-color: #13789a;
+    }
     .nav-link-container{
         text-align: start;
         margin: 0;
